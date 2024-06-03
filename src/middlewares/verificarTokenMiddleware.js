@@ -1,5 +1,6 @@
 import { verificarToken } from "../utilidades/verificarToken.js";
 
+
 export const verificarTokenMiddleware = (req, res, next) => {
   const token = req.session.token;
 
