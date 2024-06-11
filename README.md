@@ -57,11 +57,87 @@ o	Eliminar Usuario por ID:<p>
   <br>
 
 <h4>o	Iniciar Sesión:
+  <br>
 	Método: POST<h4>
+  <br>
 <p>	Ruta: api/usuarios/validarUsuario
+  
+  	Proporcionar email y password<p>
       <br>
-	Proporcionar email y password<p>
+
+  
+o	Productos:
 <br>
+
+o	Crear Producto
+<br>
+	Método: POST (envio de la información)
+<br>
+	Ruta: api/productos/crearProducto
+<br>
+
+o	Obtener Todos los Productos
+<br>
+	Método GET: 
+<br>
+
+	Ruta: api/productos/obtenerProductos
+<br>
+o	Obtener Producto por Nombre
+<br>
+
+	Método GET: 
+<br>
+	Ruta: api/productos/buscarProductos/:nombre
+<br>
+
+o	Eliminar Producto por ID:
+<br>
+	Método: DELETE
+<br>
+	Ruta: api/productos/borrarProducto/:id
+<br>
+
+o	Actualizar Producto por ID:
+<br>
+	Metodo: PUT
+<br>
+	Ruta: api/productos/modificarProducto/:id
+<br><br>
+
+o	Categorías:
+<br>
+o	Obtener Todas las Categorías
+<br>
+
+	Método: GET
+<br>
+	Ruta: api/ categorias /obtenerCategorias
+<br>
+
+o	Crear Categoria
+<br>
+	Método GET: 
+<br>
+	Ruta: api/ categorias /obtenerCategoria
+<br>
+
+o	Modificar Categoria
+<br>
+
+	Método PUT 
+<br>
+	Ruta: api/categorias/modificarCategoria/:id
+<br>
+
+o	Eliminar Categoria
+<br>
+
+	Método: POST
+<br>
+	Ruta: api/ categorias /borrarCategoria /:id
+<br>
+
 
  
 
